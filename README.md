@@ -1,16 +1,18 @@
-# React + Vite
+# Solo Águilas - Tattoo Studio (SPA) 🦅🔥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una Single-Page Web desarrollada para el estudio de tatuajes **Solo Águilas**. 
 
-Currently, two official plugins are available:
+### Propósito del Proyecto
+Este proyecto nació como una herramienta útil para mi estudio personal y como un pasatiempo para poner a prueba y practicar la metodología **TDD (Test-Driven Development)** en una aplicación web real. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Características Principales:
+- **TDD (Vitest + React Testing Library)**: Cada componente y modelo de datos fue validado con pruebas unitarias antes de su implementación final.
+- **Arquitectura Escalable (OOP)**: Uso de modelos de dominio en JavaScript para gestionar la lógica de los tatuajes.
+- **Vanilla CSS**: Diseño moderno, oscuro y responsivo sin librerías externas.
+- **Despliegue Continuo**: Integración con GitHub Pages.
 
-## React Compiler
+### Estructura de Pruebas
+He incluido una carpeta llamada `tests-archive/` que contiene todos los archivos de prueba utilizados durante el desarrollo, desde la lógica del modelo `Tattoo` hasta el renderizado de los componentes `Hero`, `Gallery` y `Footer`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Desarrollado como parte de mi camino de aprendizaje y pasión por el desarrollo de software.* 🔟🎨
