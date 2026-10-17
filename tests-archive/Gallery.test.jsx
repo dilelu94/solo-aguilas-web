@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import Gallery from './Gallery';
-import Tattoo from '../domain/Tattoo';
+import Gallery from '../src/components/Gallery';
+import Tattoo from '../src/domain/Tattoo';
 import { describe, it, expect } from 'vitest';
 
 describe('Gallery Component', () => {

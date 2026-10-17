@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Hero from './Hero';
+import Hero from '../src/components/Hero';
 import { describe, it, expect } from 'vitest';
 
 describe('Hero Component', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import Tattoo from '../domain/Tattoo';
+import Tattoo from '../src/domain/Tattoo';
 
 describe('Tattoo Domain Model', () => {
   it('should create a tattoo instance correctly', () => {
